@@ -19,7 +19,7 @@ class RecipesController < ApplicationController
   end
 
   private
-  
+
   def recipe_params
     params.require(:recipe).permit(
       :title,
